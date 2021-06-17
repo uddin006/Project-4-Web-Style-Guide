@@ -1,0 +1,62 @@
+// ======================================
+//  Variables
+// ======================================
+$font-family: 'Lato', sans-serif;
+
+
+$primary-color: #58e1c1;
+$secondary-color: #777;
+$link-color: #51ddfc;
+$frame-border-color: #ccc;
+
+// ======================================
+//  Theme background color variables
+// ======================================
+$themebackg-col-1: #927bc1;
+$themebackg-col-2: #fd7856;
+$themebackg-col-3: #deb2ee;
+$themebackg-col-4: #7ee6fd;
+$themebackg-col-5: #88d9a0;
+$themebackg-col-6: #4da2bb;
+$themebackg-col-7: #ec9fa3;
+$themebackg-col-8: #fd9f85;
+$themebackg-col-9: #e4757a;
+$themebackg-col-10: #63cc82;
+$themebackg-col-11: #51ddfc;
+$themebackg-col-12: #80e8d1;
+
+
+// ======================================
+//  Button variables
+// ======================================
+
+$default-btn-color: #51ddfc;
+$error-btn-color: #e4757a;
+$info-btn-color: #927bc1;
+$success-btn-color: #63cc82;
+$warning-btn-color: #fd7856;
+
+// ======================================
+//  Media query breakpoint
+// ======================================
+
+$breakpoint-tablet: 768px;
+
+// ======================================
+//  Buttons (lighten) Color Functions
+// ======================================
+
+$default-base: $default-btn-color;
+$default-base-light: lighten($default-base, 15%);
+
+$error-base: $error-btn-color;
+$error-base-light: lighten($error-base, 15%);
+
+$info-base: $info-btn-color;
+$info-base-light: lighten($info-base, 15%);
+
+$success-base: $success-btn-color;
+$success-base-light: lighten($success-base, 15%);
+
+$warning-base: $warning-btn-color;
+$warning-base-light: lighten($warning-base, 15%);

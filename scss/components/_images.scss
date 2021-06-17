@@ -1,0 +1,24 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img-avatar {
+
+  @include display-block;
+  @include display-size;
+  max-height: 100%;
+
+  }
+  
+  .img-frame {
+    @include display-block;
+    @include display-size;
+    padding: 13px;
+    border: 1px solid $frame-border-color;
+  }
+  
+  .img-logo {
+    
+    @include display-block;
+    
+  }

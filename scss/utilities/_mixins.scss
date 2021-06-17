@@ -1,0 +1,121 @@
+/* ============================================= */
+/*              Images MIXINS                     */
+/* ============================================= */
+
+@mixin display-block {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@mixin display-size {
+    
+    margin-top: 10px;
+    max-width: 100%; 
+}
+
+@mixin background-theme-color {
+    
+    .theme.col-1 {
+        background-color: $themebackg-col-1;
+      }
+      
+      .theme.col-2 {
+        background-color: $themebackg-col-2;
+      }
+      
+      .theme.col-3 {
+        background-color: $themebackg-col-3;
+      }
+      
+      .theme.col-4 {
+        background-color: $themebackg-col-4;
+      }
+      
+      .theme.col-5 {
+        background-color: $themebackg-col-5;
+      }
+      
+      .theme.col-6 {
+        background-color: $themebackg-col-6;
+      }
+      
+      .theme.col-7 {
+        background-color: $themebackg-col-7;
+      }
+      
+      .theme.col-8 {
+        background-color: $themebackg-col-8;
+      }
+      
+      .theme.col-9 {
+        background-color: $themebackg-col-9;
+      }
+      
+      .theme.col-10 {
+        background-color: $themebackg-col-10;
+      }
+      
+      .theme.col-11 {
+        background-color: $themebackg-col-11;
+      }
+      
+      .theme.col-12 {
+        background-color: $themebackg-col-12;
+      }
+      
+      
+}
+
+@mixin theme-col-flex-percentages {
+
+    .col-1 {
+        flex-basis: 8.33%;
+      }
+      
+      .col-2 {
+        flex-basis: 16.67%;
+      }
+      
+      .col-3 {
+        flex-basis: 25.00%;
+      }
+      
+      .col-4 {
+        flex-basis: 33.33%;
+      }
+      
+      .col-5 {
+        flex-basis: 41.67%;
+      }
+      
+      .col-6 {
+        flex-basis: 50.00%;
+      }
+      
+      .col-7 {
+        flex-basis: 58.33%;
+      }
+      
+      .col-8 {
+        flex-basis: 66.67%;
+      }
+      
+      .col-9 {
+        flex-basis: 75.00%
+      }
+      
+      .col-10 {
+        flex-basis: 83.33%;
+      }
+      
+      .col-11 {
+        flex-basis: 91.67%;
+      }
+      
+      .col-12 {
+        flex-basis: 100%;
+      }
+}
